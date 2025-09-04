@@ -1,0 +1,98 @@
+nonv1{
+    line-height: 2;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 50px;
+    margin-left:100px;
+    font-family: 'Arial','Courier','メイリオ',sans-serif;
+}
+
+
+.current-version {
+    /* 現在のバージョン番号を保持するクラス */
+    display: none; /* 画面には表示しない */
+}
+
+
+/* 基本スタイル */
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 2s ease-in-out;
+}
+
+/* <a>タグの共通スタイル */
+.message a {
+    display: block; /* <a>タグをブロック要素にする */
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: none; /* リンクの下線を消す */
+}
+
+/* 時間帯ごとの背景色 */
+.dawn { background-color: #f7d1ba; }
+.morning { background-color: #87ceeb; }
+.noon { background-color: #4682b4; }
+.afternoon { background-color: #b0e0e6; }
+.evening { background-color: #ff7f50; }
+.dusk { background-color: #483d8b; }
+.night { background-color: #000033; }
+
+/* 時間帯ごとの文字色 */
+.dawn .message { color: #5a3c26; }
+.morning .message { color: #2e8b57; }
+.noon .message { color: #f0f8ff; }
+.afternoon .message { color: #008b8b; }
+.evening .message { color: #a52a2a; }
+.dusk .message { color: #dcdcdc; }
+.night .message { color: #e0ffff; }
+
+
+body p{
+    color: white;
+}
+
+body h1{
+    color: white;
+}
+
+
+
+.notification-bar {
+    /* 画面上部に固定 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+    /* 見た目の設定 */
+    background-color: #ffcc00; /* 背景色 */
+    color: #333; /* 文字色 */
+    text-align: center;
+    padding: 15px 0;
+    text-decoration: none; /* 下線を消す */
+    font-size: 16px;
+    font-weight: bold;
+    z-index: 1000; /* 他の要素より前面に表示 */
+}
+
+/* ホバー時のスタイル */
+.notification-bar:hover {
+    background-color: #e6b800;
+}
+
+body {
+    /* 通知バーとコンテンツが重ならないように、本文の先頭に余白を設ける */
+    padding-top: 50px;
+}
+
+
+/* リンクにマウスを重ねたときにカーソルを指の形（pointer）にする */
+a {
+  cursor: pointer;
+}
