@@ -1,0 +1,34 @@
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+        .item-container {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .item-container h3 {
+            margin-top: 0;
+        }
+        .copy-text {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            box-sizing: border-box; /* パディングを含めて幅を計算 */
+        }
+        .copy-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .message {
+            margin-top: 10px;
+            color: green;
+            font-weight: bold;
+        }

@@ -5,6 +5,7 @@
             // --- パスワードと遷移先をセットで定義します ---
             const passwordMap = {
                 "nanaki": "home/home.html", 
+                "ななき": "home/home.html", 
             };
             
             // 入力されたパスワードがオブジェクトのキーに存在するかチェック

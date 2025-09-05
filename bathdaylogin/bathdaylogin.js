@@ -4,7 +4,7 @@
 
             // --- パスワードと遷移先をセットで定義します ---
             const passwordMap = {
-                "9:23": "bathdayhome.html", 
+                "9:23": "../bathdayhome/bathdayhome.html", 
             };
             
             // 入力されたパスワードがオブジェクトのキーに存在するかチェック
