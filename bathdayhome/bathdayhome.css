@@ -22,6 +22,7 @@ h1 {
     font-size: 2.5rem;
     color: #d81b60;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #countdown {
@@ -29,6 +30,7 @@ h1 {
     font-weight: bold;
     color: #e91e63;
     animation: pulse 1.5s infinite;
+    text-align: center;
 }
 
 /* アニメーション */
@@ -37,7 +39,6 @@ h1 {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
-
 /* 小さな画面向けの調整 */
 @media (max-width: 600px) {
     h1 {
