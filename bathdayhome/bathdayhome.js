@@ -1,11 +1,11 @@
 // 誕生日を設定（月は0から始まるので、9月は8になります）
-const birthday = new Date(new Date().getFullYear(), 8, 23);
+const birthday = new Date(new Date().getFullYear(), 8, 23, 7, 3, 0);
 
 const countdownElement = document.getElementById('countdown');
 
 function updateCountdown() {
     const now = new Date();
-    let targetDate = new Date(now.getFullYear(), 8, 23);
+    let targetDate = new Date(now.getFullYear(), 8, 23, 7, 3, 0);
 
     // 今年が終わっている場合は、来年の誕生日を設定
     if (now > targetDate) {

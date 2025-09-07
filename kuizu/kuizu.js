@@ -1,29 +1,29 @@
 const questions = [
     {
-        question: "私たちが初めてデートした場所はどこ？",
+        question: "僕の誕生日は？",
         answers: [
-            { text: "映画館", correct: false },
-            { text: "遊園地", correct: false },
-            { text: "水族館", correct: true },
-            { text: "ショッピングモール", correct: false }
+            { text: "9月22日", correct: false },
+            { text: "9月2日", correct: false },
+            { text: "9月23日", correct: true },
+            { text: "9月12日", correct: false }
         ]
     },
     {
-        question: "僕が初めてプレゼントしたものは何？",
+        question: "僕のフォートナイトのアカウント名は",
         answers: [
-            { text: "ネックレス", correct: false },
-            { text: "花束", correct: true },
-            { text: "手紙", correct: false },
-            { text: "マフラー", correct: false }
+            { text: "nanako_773", correct: false },
+            { text: "nagina-ch", correct: true },
+            { text: "nanaki", correct: false },
+            { text: "nagina", correct: false }
         ]
     },
     {
         question: "僕の好きな食べ物は何？",
         answers: [
             { text: "カレーライス", correct: false },
-            { text: "ラーメン", correct: false },
-            { text: "ハンバーグ", correct: true },
-            { text: "お寿司", correct: false }
+            { text: "ラーメン", correct: true },
+            { text: "なし", correct: true },
+            { text: "お寿司", correct: true }
         ]
     }
 ];
