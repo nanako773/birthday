@@ -31,3 +31,33 @@ updateCountdown();
 
 // 1秒ごとに更新
 setInterval(updateCountdown, 1000);
+
+
+
+    // ▼ここを、表示させたい日時に合わせて修正してください
+    // 月は0から始まるので、10月は9になります
+    const targetDate = new Date(2025, 9, 16, 21, 3); // 例: 2025年10月23日15時00分
+    
+    // 表示させる要素を取得
+    const myLink = document.getElementById('my-link');
+    const myMessage = document.getElementById('my-message');
+
+    function checkTime() {
+        const now = new Date();
+        
+        // 現在の日時が目標の日時を過ぎていたら表示
+        if (now >= targetDate) {
+            myLink.style.display = 'block'; // aタグを表示
+            myMessage.style.display = 'block'; // pタグを表示
+        } else {
+            // まだ時間になっていない場合は非表示を維持
+            myLink.style.display = 'none';
+            myMessage.style.display = 'none';
+        }
+    }
+
+    // ページ読み込み時に一度実行
+    checkTime();
+
+    // 1分ごとにチェックを繰り返す
+    setInterval(checkTime, 60000); // 60000ミリ秒 = 1分
