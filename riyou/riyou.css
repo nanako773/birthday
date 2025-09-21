@@ -32,17 +32,3 @@
             color: green;
             font-weight: bold;
         }
-
-
-/* スマホ向けのスタイル (デフォルト) */
-.container {
-  max-width: 100%;
-}
-
-/* PC向けのスタイル */
-@media screen and (min-width: 768px) {
-  .container {
-    width: 960px; /* PC向けの固定幅 */
-    margin: 0 auto;
-  }
-}
