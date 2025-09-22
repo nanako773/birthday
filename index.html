@@ -3,29 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>準備中...</title>
-    <link rel="stylesheet" href="style.css">
-    <link type="text/css" rel="stylesheet" charset="UTF-8" href="subete/subete.css">
+    <title>パスワード入力</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="style.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="subete/subete.js">
 </head>
 <body>
-    <div class="container">
-        <div id="countdown-section">
-            <h1 class="heading">もう少し待っててね！</h1>
-            <p class="sub-heading">ログイン出来るまであと...</p>
-            <div id="counter-wrapper" style="display: none;">
-                <p>現在の訪問者数: <span id="visitor-count">0</span></p>
-            </div>
-            <div id="countdown-text" class="countdown-text"></div>
-            <a href="maxtutete/index.html">maxtutete</a>
-            <a href="bathdayhome/bathdayhome.html">bathday</a>
-        </div>
-        
-        <div id="ready-section" class="ready-section" style="display: none;">
-            <h1 class="heading">準備ができました！</h1>
-            <p class="sub-heading">このページを更新してみてね！</p>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    <script src="subete/subete.js"></script>
+    <h1>パスワードを入力してください</h1>
+    <input type="password" id="passwordInput" placeholder="パスワード">
+    <button onclick="checkPassword()">送信</button>
+    <p>管理者の名前を入力してね</p>
+<script src="script.js"></script>
+<script src="subete/subete.js"></script>
 </body>
 </html>
